@@ -1,0 +1,211 @@
+85820000001-5 00000185112-8 20590025119-4 77020220321-8 
+
+Evite Fraudes! Antes de finalizar o pagamento no seu banco verifique os dados do beneficiário!
+
+Governo do Estado de São Paulo 
+Secretaria da Fazenda e Planejamento
+Documento de Arrecadação de Receitas Estaduais
+
+01 - Nome / Razão Social
+Epson Rio de Janeiro Importadora e Exportadora Ltd
+
+02 - Endereço 
+RODOVIA: PRESIDENTE DUTRA S/N RESENDE RJ
+
+03 - CNPJ Base / CPF
+
+12.802.111
+
+04 - Telefone
+
+(24)3354-9828
+
+DARE-SP
+
+Documento Principal
+
+07 - Data de Vencimento
+
+08 - Valor Total
+
+21/03/2022
+
+R$ 100,00
+
+05 - Quantidade de Documentos Detalhe
+
+09 - Número do DARE
+
+06 - Observações 
+ | DARE avulso. Data de vencimento do imposto: 21/03/2022. Recolhimento na modalidade GNRE.
+
+10 - Autenticação Mecânica
+
+220590025119770
+
+Emissão: 21/03/2022
+
+Via do Banco
+
+Governo do Estado de São Paulo
+Secretaria da Fazenda e 
+Planejamento
+
+DARE-SP
+
+01 - Código de Receita – Descrição
+
+02 - Código do Serviço – 
+Descrição
+
+19 - Qtde 
+Serviços:  1
+
+Documento
+Detalhe
+
+102-8
+
+ICMS consumidor final não contribuinte por 
+apuração (outra UF) - Código GNRE 10011-0
+
+SEFAZ - 410201 - ICMS - DIFAL (outra UF) - RPA - 
+Contribuinte com cadastro em SP
+
+15 - Nome do Contribuinte
+
+03 - Data de Vencimento
+
+06 - 
+
+09 - Valor da Receita
+
+Epson Rio de Janeiro Importadora e 
+Exportadora Ltd
+
+16 - Endereço 
+RODOVIA: PRESIDENTE DUTRA S/N RESENDE RJ
+
+21/03/2022
+
+04 - Cnpj ou Cpf
+
+12.802.111/0001-09
+
+05 - 
+
+07 - Referência
+
+10 - Juros de Mora
+
+13 - Honorários 
+Advocatícios
+
+12 - Acréscimo 
+Financeiro
+
+R$ 100,00
+
+R$ 0,00
+
+2
+2
+0
+5
+9
+0
+0
+2
+5
+1
+1
+9
+7
+7
+0
+-
+0
+0
+0
+1
+
+18 - Nº do Documento 
+Detalhe
+
+220590025119770-0001
+
+Emissão: 21/03/2022
+
+17 - Observações 
+| DARE avulso. Data de vencimento do imposto: 21/03/2022. Recolhimento 
+na modalidade GNRE.
+
+08 - 
+
+02/2022
+
+R$ 0,00
+
+R$ 0,00
+
+11 - Multa de Mora ou 
+Multa Por Infração
+
+14 - Valor Total
+
+R$ 0,00
+
+R$ 100,00
+
+85820000001-5 00000185112-8 20590025119-4 77020220321-8 
+
+Governo do Estado de São Paulo
+Secretaria da Fazenda e Planejamento
+Documento de Arrecadação de Receitas Estaduais
+
+DARE-SP
+
+Documento Principal
+
+01 - Nome / Razão Social
+Epson Rio de Janeiro Importadora e Exportadora Ltd
+
+02 - Endereço 
+RODOVIA: PRESIDENTE DUTRA S/N RESENDE RJ
+
+03 - CNPJ Base / CPF
+
+12.802.111
+
+04 - Telefone
+
+(24)3354-9828
+
+07 - Data de Vencimento
+
+08 - Valor Total
+
+21/03/2022
+
+R$ 100,00
+
+05 - Quantidade de Documentos Detalhe
+
+09 - Número do DARE
+
+06 - Observações  
+ | DARE avulso. Data de vencimento do imposto: 21/03/2022. Recolhimento na modalidade GNRE.
+
+10 - Autenticação Mecânica
+
+220590025119770
+
+Emissão: 21/03/2022
+
+Via do Contribuinte
+
+1
+
+1
+
+
