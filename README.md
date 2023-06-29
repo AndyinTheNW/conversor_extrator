@@ -80,5 +80,4 @@ Certifique-se de ter as bibliotecas necessárias instaladas, como a biblioteca `
 - As informações extraídas são armazenadas em um dicionário, onde as chaves representam os nomes das informações e os valores correspondem aos dados extraídos.
 - O código está configurado para processar um arquivo de texto específico neste exemplo. Certifique-se de atualizar o caminho do arquivo (`txt_path`) para o arquivo desejado.
 
-Isso deve ajudar você a entender e utilizar o código fornecido. Se tiver mais dúvidas, fique à vontade para perguntar.
 
