@@ -1,83 +1,81 @@
-# README
+# README - Conversor de PDF para TXT e Extrator de Informações
 
-Este documento contém uma explicação detalhada do funcionamento dos arquivos `extractor.py` e `converter.py`, que trabalham em conjunto para realizar a conversão de arquivos PDF para TXT e extração de suas informações.
+Este documento explica o funcionamento dos arquivos `extractor.py` e `converter.py`, que trabalham juntos para converter arquivos PDF em TXT e extrair informações desses arquivos.
 
-## Sobre o conversor de PDF para TXT
+## Conversor de PDF para TXT
 
-Este código em Python é um conversor de arquivos PDF para arquivos de texto (TXT). Ele utiliza a biblioteca `pdfminer` para extrair o texto dos arquivos PDF e salvá-lo em um arquivo TXT correspondente.
+O código em Python é um conversor de arquivos PDF para arquivos de texto (TXT) usando a biblioteca `pdfminer`. Ele permite extrair texto de arquivos PDF e salvar em TXT.
 
-### Utilização
+### Uso
 
-1. Certifique-se de ter o Python instalado em seu sistema.
+1. Certifique-se de ter Python instalado.
 
-2. Instale a biblioteca `pdfminer` executando o comando a seguir:
+2. Instale a biblioteca `pdfminer`:
 
    ```
    pip install pdfminer.six
    ```
 
-3. Defina o diretório que contém os arquivos PDF a serem convertidos:
+3. Defina o diretório de entrada com arquivos PDF:
 
    ```python
    input_folder = "caminho/do/diretorio"
    ```
 
-4. Defina o diretório de saída onde os arquivos TXT serão armazenados:
+4. Escolha um diretório de saída para arquivos TXT:
 
    ```python
    output_folder = "caminho/do/diretorio/de/saida"
    ```
 
-5. Execute o código para converter os arquivos PDF em arquivos TXT:
+5. Execute o código:
 
    ```python
    python nome_do_arquivo.py
    ```
 
-   Certifique-se de substituir "nome_do_arquivo.py" pelo nome do arquivo em que o código está salvo.
+   Substitua "nome_do_arquivo.py" pelo nome do arquivo Python.
 
-6. Os arquivos TXT resultantes serão salvos no diretório de saída especificado.
+6. Os arquivos TXT gerados estarão no diretório de saída.
 
-Certifique-se de adaptar o código e os caminhos de diretório conforme necessário para o seu caso específico.
+Adapte o código e caminhos conforme necessário.
 
-**Observação:** Este código foi escrito em Python 3 e requer as bibliotecas `os` e `pdfminer.high_level` para funcionar corretamente.
+**Nota:** O código é para Python 3 e requer as bibliotecas `os` e `pdfminer.high_level`.
 
-## Sobre o extrator de informações de arquivos .txt
+## Extrator de Informações de Arquivos .txt
 
-Este código realiza a extração de informações de um arquivo de texto (.txt) com base em padrões definidos. O objetivo é extrair informações específicas de um documento no formato definido e armazená-las em um dicionário.
+Este código extrai informações de um arquivo de texto (.txt) com base em padrões definidos, armazenando-as em um dicionário.
 
 ### Funcionalidades
 
-O código possui a seguinte funcionalidade principal:
-
-- `extract_information_from_txt(txt_path)`: Essa função recebe o caminho do arquivo de texto como entrada e retorna um dicionário contendo as informações extraídas do arquivo. As informações extraídas incluem Razão Social, Endereço, CNPJ/CPF/Insc. Est., UF, Telefone, Município, Tributo, Descrição do Tributo, Chave, Data de Vencimento, UF Favorecida, Nº de Controle, Código da Receita, Nº Documento de Origem, Período de Referência, Valor Principal, Atualização Monetária, Juros, Multa, Total a Recolher e Código de Barras.
+- `extract_information_from_txt(txt_path)`: Recebe o caminho do arquivo de texto e retorna um dicionário com informações extraídas, como Razão Social, Endereço, CNPJ/CPF, entre outras.
 
 ### Uso
 
-Para utilizar o código, siga as etapas abaixo:
+1. Defina o caminho do arquivo de texto em `txt_path`.
 
-1. Defina o caminho do arquivo de texto que deseja extrair as informações, atribuindo-o à variável `txt_path`.
-2. Chame a função `extract_information_from_txt(txt_path)` e passe o caminho do arquivo de texto como argumento.
-3. A função retornará um dicionário contendo as informações extraídas.
-4. Utilize as informações conforme necessário.
+2. Chame a função `extract_information_from_txt(txt_path)` com o caminho como argumento.
 
-Exemplo de uso:
+3. O dicionário retornado contém as informações extraídas.
+
+Exemplo:
 
 ```python
-txt_path = r"C:\epson_py\guias_pdf\guias_txt\13 - GNRE - DIÁRIA - MT.txt"
+txt_path = "caminho/para/arquivo.txt"
 information = extract_information_from_txt(txt_path)
 
 for key, value in information.items():
     print(f"{key}: {value}")
 ```
 
-Certifique-se de ter as bibliotecas necessárias instaladas, como a biblioteca `re` para expressões regulares.
+Certifique-se de ter a biblioteca `re` instalada.
 
 ### Observações
 
-- Certifique-se de que o arquivo de texto a ser processado esteja no formato correto e contenha as informações esperadas.
-- O código utiliza expressões regulares para encontrar padrões específicos no texto. Portanto, é importante que os padrões estejam corretamente definidos e sejam compatíveis com o conteúdo do arquivo de texto.
-- As informações extraídas são armazenadas em um dicionário, onde as chaves representam os nomes das informações e os valores correspondem aos dados extraídos.
-- O código está configurado para processar um arquivo de texto específico neste exemplo. Certifique-se de atualizar o caminho do arquivo (`txt_path`) para o arquivo desejado.
+- O arquivo de texto deve estar no formato correto com as informações esperadas.
 
+- O código usa expressões regulares para encontrar padrões no texto, então defina padrões apropriados.
 
+- As informações extraídas são armazenadas em um dicionário, onde as chaves são nomes das informações e os valores são os dados extraídos.
+
+- O código é configurado para processar um arquivo de texto específico, então atualize `txt_path` conforme necessário.
