@@ -1,9 +1,8 @@
 import re
 
 
-# Endereço atual do arquivo txt: C:\conversor_extrator\guias\guias_txt\13 - GNRE - DIÁRIA - MT.txt
-
-txt_path = r"C:\conversor_extrator\guias\guias_txt\13 - GNRE - DIÁRIA - MT.txt"
+# Endereço atual do arquivo txt: 
+txt_path = r"t"
 
 def extract_information_from_txt(txt_path):
     with open(txt_path, "r", encoding="utf-8") as txt_file:
