@@ -4,7 +4,7 @@ Este documento explica o funcionamento dos arquivos `extractor.py` e `converter.
 
 ## Conversor de PDF para TXT
 
-Esse script é um conversor de arquivos PDF para arquivos de texto (TXT) usando a biblioteca `pdfminer`. Ele permite extrair texto de arquivos PDF e salvar em TXT.
+Trata-se de um conversor de arquivos PDF para TXT, que também coleta informações pontuais desejadas para uso posterior.
 
 ### Uso
 
